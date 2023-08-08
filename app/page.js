@@ -1,5 +1,6 @@
 import Image from "next/image";
 import NavBar from "./components/NavBar";
+import { Footer } from "./components/Footer"; 
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
           alt="bitroot image"
           width={100}
           height={100}
-        ></Image>
+          ></Image>
         <h1 className="text-2xl md:text-7xl  md:text-black  font-bold uppercase text-white">
           Crypto Swami
         </h1>
@@ -47,6 +48,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 }
