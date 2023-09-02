@@ -67,11 +67,11 @@ export default function Home() {
             With an innate understanding of blockchain technology and a profound
             knowledge of the ever-evolving crypto landscape, he stands out as a
             distinguished figure in the crypto community. As a crypto guy,
-            Crypto Swami's passion for the decentralized revolution is
+            Crypto Swami passion for the decentralized revolution is
             contagious. He has been an early adopter and an enthusiastic
             advocate of various cryptocurrencies, earning him a reputation as a
             seasoned investor and advisor. His expertise extends beyond the
-            technical aspects of blockchain technology; he possesses a keen eye
+            technical aspects of blockchain technology. he possesses a keen eye
             for identifying promising projects and trends within the crypto
             market. Many seek his counsel and insights as they navigate the
             often complex and volatile world of digital assets.
@@ -81,11 +81,11 @@ export default function Home() {
             With an innate understanding of blockchain technology and a profound
             knowledge of the ever-evolving crypto landscape, he stands out as a
             distinguished figure in the crypto community. As a crypto guy,
-            Crypto Swami's passion for the decentralized revolution is
+            Crypto Swamis passion for the decentralized revolution is
             contagious. He has been an early adopter and an enthusiastic
             advocate of various cryptocurrencies, earning him a reputation as a
             seasoned investor and advisor. His expertise extends beyond the
-            technical aspects of blockchain technology; he possesses a keen eye
+            technical aspects of blockchain technology. he possesses a keen eye
             for identifying promising projects and trends within the crypto
             market. Many seek his counsel and insights as they navigate the
             often complex and volatile world of digital assets.
