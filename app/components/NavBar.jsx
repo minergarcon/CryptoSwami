@@ -2,9 +2,9 @@ import Link from 'next/link'
 import React from 'react'
 
 
-const NavBar = () => {
+const NavBar = () => { 
   return (
-    <div className='flex flex-row bg-white text-black justify-center gap-4 cursor-pointer'>
+    <div className='hidden lg:flex  flex-row bg-white text-black justify-center gap-4 cursor-pointer'>
         <p className='hover:text-blue-400'>Home</p>
         <p className='hover:text-blue-400'>Bitroot</p>
         <Link className='hover:text-blue-500 hover:' href="/about"><p>About</p> </Link>
