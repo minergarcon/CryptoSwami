@@ -22,14 +22,13 @@ export default function Home() {
         setResult(data.quote);
       } catch (error) {
         console.error("Error fetching data:", error);
-      } 
+      }
     };
 
     fetchData();
   }, [bgclr]);
 
   const handlclick = () => {
-    
     // fetchData();
     if (bgclr == "bg-green-500") {
       setbgclr("bg-white");
@@ -53,7 +52,7 @@ export default function Home() {
           width={100}
           height={100}
         ></Image>
-        <button onClick={handlclick} className="bg-white px-24  ">
+        <button onClick={handlclick} className="bg-white px-24 hidden lg:flex ">
           Bitroot bot
         </button>
         <h1 className="text-2xl md:text-7xl  md:text-black  font-bold uppercase text-white">
@@ -61,20 +60,20 @@ export default function Home() {
         </h1>
         <h2> {result} </h2>
 
-        <div className="flex">
+        <div className="hidden lg:flex ">
           <p>
             Crypto Swami is a true visionary in the world of cryptocurrencies.
             With an innate understanding of blockchain technology and a profound
             knowledge of the ever-evolving crypto landscape, he stands out as a
             distinguished figure in the crypto community. As a crypto guy,
-            Crypto Swami passion for the decentralized revolution is
-            contagious. He has been an early adopter and an enthusiastic
-            advocate of various cryptocurrencies, earning him a reputation as a
-            seasoned investor and advisor. His expertise extends beyond the
-            technical aspects of blockchain technology. he possesses a keen eye
-            for identifying promising projects and trends within the crypto
-            market. Many seek his counsel and insights as they navigate the
-            often complex and volatile world of digital assets.
+            Crypto Swami passion for the decentralized revolution is contagious.
+            He has been an early adopter and an enthusiastic advocate of various
+            cryptocurrencies, earning him a reputation as a seasoned investor
+            and advisor. His expertise extends beyond the technical aspects of
+            blockchain technology. he possesses a keen eye for identifying
+            promising projects and trends within the crypto market. Many seek
+            his counsel and insights as they navigate the often complex and
+            volatile world of digital assets.
           </p>
           <p>
             Crypto Swami is a true visionary in the world of cryptocurrencies.
