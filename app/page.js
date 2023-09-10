@@ -55,7 +55,7 @@ export default function Home() {
         <button onClick={handlclick} className="bg-white px-24 hidden lg:flex ">
           Bitroot bot
         </button>
-        <h1 className="text-2xl md:text-7xl  md:text-black  font-bold uppercase text-white">
+        <h1 className="lg:text-8xl md:text-5xl md:text-black  font-bold uppercase text-white">
           Crypto Swami
         </h1>
         <h2> {result} </h2>
